@@ -2,11 +2,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor quos fugit tenetur commodi tempore nostrum odio vel id numquam, in culpa, temporibus quod voluptas, aliquam quia ipsa possimus nihil ipsum.</title>
+    <title>Weather App</title>
+    <script src="script.js"></script>
 </head>
-<body>
-    <h1>Das hier ist eine Test Datei!</h1>
-    <h2>Diese Änderung sollte noch nicht drinnen sein</h2>
-    <p>Nope</p>
+<body id="body">
+    <h1>Weather App</h1>
+    <input type="text" id="stadt" placeholder="Stadt" required>
+    <button onclick="update()" id="search">Suchen</button>
+    <p id="output"></p>
 </body>
 </html>
