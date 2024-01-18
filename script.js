@@ -1,5 +1,5 @@
 const apiKey = "7491656195ac46238be152847241701";
-const apiUrl = "http://api.weatherapi.com/v1/current.json?key=" + apiKey;
+const apiUrl = "https://api.weatherapi.com/v1/current.json?key=" + apiKey;
 const regex = /^([^0-9]*)$/;
 
 document.addEventListener("DOMContentLoaded", function() {
